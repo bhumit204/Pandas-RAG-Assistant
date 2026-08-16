@@ -86,13 +86,13 @@ Pandas_RAG_Assistant/
 
 ## 5. Running the Project
 
-For ONNX Runtime and related ML packages, Python 3.11 is a safer choice than very new Python releases if package compatibility becomes an issue. currently project ran on Python 3.11.15.
+For ONNX Runtime and related ML packages, Python 3.11 is a safer choice than very new Python releases if package compatibility becomes an issue. current project ran on Python 3.11.15.
 
 ### Step 1 — Install dependencies using uv
 
 ```bash
 git clone <path>
-cd Pandas_RAG_Assistant
+cd Pandas-RAG-Assistant
 uv sync
 ```
 
@@ -160,10 +160,11 @@ streamlit run uiapp.py
 
 Then open the local Streamlit URL displayed by the command.
 
-UI will be displayed as per below (URL wll take sometime to load and it will be empty):
+UI will be displayed as per below (URL wll take sometime to load and user question will should be asked in the below field):
 
 ![](images/Streamlit_UI.png)
 
+Below some sample questions are given which is tested during the development.
 
 ## 6. Example Questions
 

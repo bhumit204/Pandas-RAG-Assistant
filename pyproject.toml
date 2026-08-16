@@ -1,0 +1,18 @@
+[project]
+name = "pandas-rag-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bs4>=0.0.2",
+    "flashrank>=0.2.10",
+    "huggingface-hub>=1.27.0",
+    "openai>=3.1.0",
+    "python-dotenv>=1.2.2",
+    "qdrant-client>=1.19.0",
+    "requests>=2.34.2",
+    "streamlit>=1.61.1",
+    "tokenizers>=0.23.1",
+    "torchvision>=0.28.0",
+]

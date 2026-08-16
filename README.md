@@ -19,6 +19,7 @@ The assistant is designed to:
 -- Provide a simple conversational Streamlit interface.
 
 The project demonstrates a complete RAG workflow:
+
 ![Flow Chart](images/Flow_Chart.png)
 
 ## 2. Project Goals
@@ -148,6 +149,7 @@ Upload vectors
 > Ingestion process will take 35 to 40 minutes due to pandas documentation is more than 200 MB.
 
 Once, ingestion process is completed successfully, go to Qdrant cloud cluster tab and click on `Open Cluster UI` on cluster grid. You will be able to see enterprise_rag as collection name and as ingestion points has been inserted in the db which is highlighted in yellow color.
+
 ![](images/Qdrant_collection.png)
 
 ### Step 5 — Start Streamlit
@@ -159,6 +161,7 @@ streamlit run uiapp.py
 Then open the local Streamlit URL displayed by the command.
 
 UI will be displayed as per below (URL wll take sometime to load and it will be empty):
+
 ![](images/Streamlit_UI.png)
 
 
@@ -188,7 +191,7 @@ How do I create a Kubernetes deployment for a FastAPI application?
 
 The assistant should not invent a Pandas answer. It should indicate that the Pandas documentation does not contain the requested information.
 
-## 7. Project Detail Information.
+## 7. Project Detail Information
 
 ### 7.1 `download.py` -- To Download the model from Hugging Face
 
